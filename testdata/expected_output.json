@@ -2188,8 +2188,8 @@
       "reason": "UNREACHABLE"
     },
     {
-      "id": "go://monorepo/src/main.go#helper",
-      "file": "monorepo/src/main.go",
+      "id": "go://monorepo/main.go#helper",
+      "file": "monorepo/main.go",
       "line": 9,
       "priority": "P1",
       "score": 0.8,
@@ -2717,7 +2717,7 @@
       "reason": "REACHABLE"
     },
     {
-      "id": "go://monorepo/src/main.go#main",
+      "id": "go://monorepo/main.go#main",
       "reason": "REACHABLE"
     },
     {
@@ -3406,11 +3406,11 @@
       ]
     },
     {
-      "file": "monorepo/src/main.go",
+      "file": "monorepo/main.go",
       "action": "PARTIAL_REMOVAL",
       "all_symbols_unreachable": false,
       "removals": [
-        "go://monorepo/src/main.go#helper"
+        "go://monorepo/main.go#helper"
       ]
     },
     {
