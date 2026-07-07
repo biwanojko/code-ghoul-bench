@@ -1,0 +1,10 @@
+{
+  "active_conditions": {
+    "go": {"cgo": true, "linux": true, "amd64": true},
+    "rust": {"feature=ffi": true, "feature=jni": true, "test": false},
+    "java": {},
+    "kotlin": {"multiplatform": true}
+  },
+  "consider_test_scope": false,
+  "consider_all_configurations": true
+}
