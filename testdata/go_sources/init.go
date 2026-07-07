@@ -4,6 +4,7 @@ import "fmt"
 
 func init() {
 	fmt.Println("server package initialized")
+	_ = BuildInfo
 }
 
 // Version is the server version constant

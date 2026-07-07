@@ -34,7 +34,7 @@ public class NativeBridge {
     /**
      * Initialize the bridge - called from static block.
      */
-    private static void init() {
+    private static void initialize() {
         // initialization logic
     }
 }

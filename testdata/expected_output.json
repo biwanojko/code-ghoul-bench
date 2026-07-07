@@ -604,51 +604,6 @@
       "reason": "UNREACHABLE"
     },
     {
-      "id": "java://com.example.Application",
-      "file": "java_sources/Application.java",
-      "line": 6,
-      "priority": "P0",
-      "score": 1,
-      "loc_savings": 5,
-      "reason": "UNREACHABLE"
-    },
-    {
-      "id": "java://com.example.Application#main",
-      "file": "java_sources/Application.java",
-      "line": 8,
-      "priority": "P0",
-      "score": 1,
-      "loc_savings": 8,
-      "reason": "UNREACHABLE"
-    },
-    {
-      "id": "java://com.example.Application#onShutdown",
-      "file": "java_sources/Application.java",
-      "line": 29,
-      "priority": "P0",
-      "score": 1,
-      "loc_savings": 8,
-      "reason": "UNREACHABLE"
-    },
-    {
-      "id": "java://com.example.Application#printUsage",
-      "file": "java_sources/Application.java",
-      "line": 22,
-      "priority": "P0",
-      "score": 1,
-      "loc_savings": 8,
-      "reason": "UNREACHABLE"
-    },
-    {
-      "id": "java://com.example.Application#run",
-      "file": "java_sources/Application.java",
-      "line": 13,
-      "priority": "P0",
-      "score": 1,
-      "loc_savings": 8,
-      "reason": "UNREACHABLE"
-    },
-    {
       "id": "java://com.example.Builder",
       "file": "java_sources/Builder.java",
       "line": 6,
@@ -1272,15 +1227,6 @@
     {
       "id": "kotlin://com.example.kotlin#String",
       "file": "kotlin_sources/Extensions.kt",
-      "line": 7,
-      "priority": "P0",
-      "score": 1,
-      "loc_savings": 5,
-      "reason": "UNREACHABLE"
-    },
-    {
-      "id": "kotlin://com.example.kotlin#String",
-      "file": "kotlin_sources/Extensions.kt",
       "line": 11,
       "priority": "P0",
       "score": 1,
@@ -1300,6 +1246,15 @@
       "id": "kotlin://com.example.kotlin#String",
       "file": "kotlin_sources/Deprecated.kt",
       "line": 25,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 5,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#String",
+      "file": "kotlin_sources/Extensions.kt",
+      "line": 7,
       "priority": "P0",
       "score": 1,
       "loc_savings": 5,
@@ -1406,8 +1361,8 @@
     },
     {
       "id": "kotlin://com.example.kotlin#contains",
-      "file": "kotlin_sources/Singleton.kt",
-      "line": 28,
+      "file": "kotlin_sources/Cache.kt",
+      "line": 41,
       "priority": "P0",
       "score": 1,
       "loc_savings": 10,
@@ -1415,8 +1370,8 @@
     },
     {
       "id": "kotlin://com.example.kotlin#contains",
-      "file": "kotlin_sources/Cache.kt",
-      "line": 41,
+      "file": "kotlin_sources/Singleton.kt",
+      "line": 28,
       "priority": "P0",
       "score": 1,
       "loc_savings": 10,
@@ -1514,8 +1469,8 @@
     },
     {
       "id": "kotlin://com.example.kotlin#get",
-      "file": "kotlin_sources/Singleton.kt",
-      "line": 14,
+      "file": "kotlin_sources/Cache.kt",
+      "line": 20,
       "priority": "P0",
       "score": 1,
       "loc_savings": 10,
@@ -1523,8 +1478,8 @@
     },
     {
       "id": "kotlin://com.example.kotlin#get",
-      "file": "kotlin_sources/Cache.kt",
-      "line": 20,
+      "file": "kotlin_sources/Singleton.kt",
+      "line": 14,
       "priority": "P0",
       "score": 1,
       "loc_savings": 10,
@@ -1612,27 +1567,9 @@
       "reason": "UNREACHABLE"
     },
     {
-      "id": "kotlin://com.example.kotlin#loadConfig",
-      "file": "kotlin_sources/Application.kt",
-      "line": 27,
-      "priority": "P0",
-      "score": 1,
-      "loc_savings": 10,
-      "reason": "UNREACHABLE"
-    },
-    {
       "id": "kotlin://com.example.kotlin#loadFromEnv",
       "file": "kotlin_sources/Config.kt",
       "line": 27,
-      "priority": "P0",
-      "score": 1,
-      "loc_savings": 10,
-      "reason": "UNREACHABLE"
-    },
-    {
-      "id": "kotlin://com.example.kotlin#main",
-      "file": "kotlin_sources/Application.kt",
-      "line": 6,
       "priority": "P0",
       "score": 1,
       "loc_savings": 10,
@@ -1774,36 +1711,9 @@
       "reason": "UNREACHABLE"
     },
     {
-      "id": "kotlin://com.example.kotlin#run",
-      "file": "kotlin_sources/Application.kt",
-      "line": 12,
-      "priority": "P0",
-      "score": 1,
-      "loc_savings": 10,
-      "reason": "UNREACHABLE"
-    },
-    {
       "id": "kotlin://com.example.kotlin#shutdown",
       "file": "kotlin_sources/Deprecated.kt",
       "line": 18,
-      "priority": "P0",
-      "score": 1,
-      "loc_savings": 10,
-      "reason": "UNREACHABLE"
-    },
-    {
-      "id": "kotlin://com.example.kotlin#shutdown",
-      "file": "kotlin_sources/Application.kt",
-      "line": 20,
-      "priority": "P0",
-      "score": 1,
-      "loc_savings": 10,
-      "reason": "UNREACHABLE"
-    },
-    {
-      "id": "kotlin://com.example.kotlin#size",
-      "file": "kotlin_sources/Cache.kt",
-      "line": 24,
       "priority": "P0",
       "score": 1,
       "loc_savings": 10,
@@ -1822,6 +1732,15 @@
       "id": "kotlin://com.example.kotlin#size",
       "file": "kotlin_sources/Singleton.kt",
       "line": 16,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#size",
+      "file": "kotlin_sources/Cache.kt",
+      "line": 24,
       "priority": "P0",
       "score": 1,
       "loc_savings": 10,
@@ -2226,7 +2145,7 @@
     {
       "id": "go://go_sources/init.go#BuildInfo",
       "file": "go_sources/init.go",
-      "line": 13,
+      "line": 14,
       "priority": "P1",
       "score": 0.8,
       "loc_savings": 3,
@@ -2235,7 +2154,7 @@
     {
       "id": "go://go_sources/init.go#Version",
       "file": "go_sources/init.go",
-      "line": 10,
+      "line": 11,
       "priority": "P1",
       "score": 0.8,
       "loc_savings": 3,
@@ -2244,7 +2163,7 @@
     {
       "id": "go://go_sources/init.go#debugMode",
       "file": "go_sources/init.go",
-      "line": 19,
+      "line": 20,
       "priority": "P1",
       "score": 0.8,
       "loc_savings": 3,
@@ -2253,7 +2172,7 @@
     {
       "id": "go://go_sources/init.go#enableDebug",
       "file": "go_sources/init.go",
-      "line": 22,
+      "line": 23,
       "priority": "P1",
       "score": 0.8,
       "loc_savings": 10,
@@ -2278,6 +2197,33 @@
       "reason": "UNREACHABLE"
     },
     {
+      "id": "java://com.example.Application#onShutdown",
+      "file": "java_sources/Application.java",
+      "line": 29,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.Application#printUsage",
+      "file": "java_sources/Application.java",
+      "line": 22,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.Application#run",
+      "file": "java_sources/Application.java",
+      "line": 13,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
       "id": "java://com.example.KeepAnnotated#alsoNotKept",
       "file": "java_sources/KeepAnnotated.java",
       "line": 26,
@@ -2296,7 +2242,7 @@
       "reason": "UNREACHABLE"
     },
     {
-      "id": "java://com.example.NativeBridge#init",
+      "id": "java://com.example.NativeBridge#initialize",
       "file": "java_sources/NativeBridge.java",
       "line": 37,
       "priority": "P1",
@@ -2362,6 +2308,33 @@
       "id": "kotlin://com.example.kotlin#formatResult",
       "file": "kotlin_sources/Native.kt",
       "line": 27,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#loadConfig",
+      "file": "kotlin_sources/Application.kt",
+      "line": 27,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#run",
+      "file": "kotlin_sources/Application.kt",
+      "line": 12,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#shutdown",
+      "file": "kotlin_sources/Application.kt",
+      "line": 20,
       "priority": "P1",
       "score": 0.8,
       "loc_savings": 10,
@@ -2674,6 +2647,15 @@
       "reason": "UNREACHABLE"
     },
     {
+      "id": "java://com.example.Application",
+      "file": "java_sources/Application.java",
+      "line": 6,
+      "priority": "P2",
+      "score": 0.5,
+      "loc_savings": 5,
+      "reason": "UNREACHABLE"
+    },
+    {
       "id": "java://com.example.NativeBridge",
       "file": "java_sources/NativeBridge.java",
       "line": 6,
@@ -2739,6 +2721,10 @@
       "reason": "REACHABLE"
     },
     {
+      "id": "java://com.example.Application#main",
+      "reason": "REACHABLE"
+    },
+    {
       "id": "java://com.example.KeepAnnotated",
       "reason": "safety_filter"
     },
@@ -2764,6 +2750,10 @@
     },
     {
       "id": "java://com.example.StaticInit#\u003cstatic_init\u003e",
+      "reason": "REACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#main",
       "reason": "REACHABLE"
     },
     {
@@ -3041,11 +3031,10 @@
     },
     {
       "file": "java_sources/Application.java",
-      "action": "DELETE_ENTIRE_FILE",
-      "all_symbols_unreachable": true,
+      "action": "PARTIAL_REMOVAL",
+      "all_symbols_unreachable": false,
       "removals": [
         "java://com.example.Application",
-        "java://com.example.Application#main",
         "java://com.example.Application#onShutdown",
         "java://com.example.Application#printUsage",
         "java://com.example.Application#run"
@@ -3159,7 +3148,7 @@
       "all_symbols_unreachable": false,
       "removals": [
         "java://com.example.NativeBridge",
-        "java://com.example.NativeBridge#init",
+        "java://com.example.NativeBridge#initialize",
         "java://com.example.NativeBridge#javaHelper"
       ]
     },
@@ -3229,11 +3218,10 @@
     },
     {
       "file": "kotlin_sources/Application.kt",
-      "action": "DELETE_ENTIRE_FILE",
-      "all_symbols_unreachable": true,
+      "action": "PARTIAL_REMOVAL",
+      "all_symbols_unreachable": false,
       "removals": [
         "kotlin://com.example.kotlin#loadConfig",
-        "kotlin://com.example.kotlin#main",
         "kotlin://com.example.kotlin#run",
         "kotlin://com.example.kotlin#shutdown"
       ]
@@ -3575,9 +3563,9 @@
   ],
   "summary": {
     "total_symbols": 337,
-    "removable": 300,
-    "retained": 37,
-    "files_to_delete": 42,
-    "estimated_loc_savings": 2545
+    "removable": 298,
+    "retained": 39,
+    "files_to_delete": 40,
+    "estimated_loc_savings": 2527
   }
 }
