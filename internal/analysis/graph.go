@@ -198,7 +198,7 @@ func BuildGraph(extract *ExtractOutput) *GraphOutput {
 				edges = append(edges, Edge{
 					From:       cs.From,
 					To:         to,
-					Mechanism:  "call",
+					Mechanism:  "go_call",
 					Confidence: 1.0,
 				})
 			}
