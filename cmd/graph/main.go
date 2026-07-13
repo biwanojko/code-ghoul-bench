@@ -9,25 +9,19 @@ import (
 )
 
 func main() {
-	// Read ExtractOutput from stdin
 	var extract analysis.ExtractOutput
-	if err := json.NewDecoder(os.Stdin).Decode(&extract); err != nil {
-		fmt.Fprintf(os.Stderr, "decode error: %v\n", err)
-		os.Exit(1)
+	dec := json.NewDecoder(os.Stdin)
+	if err := dec.Decode(&extract); err != nil {
+		fmt.Fprintf(os.Stderr, "graph: decode error: %v\n", err)
+		os.Exit(2)
 	}
 
-	// TODO: build the cross-language call graph from extract.Symbols and extract.Callsites.
-	// Resolve cgo/JNI edges and output nodes + edges + unresolved callsites.
-	out := map[string]interface{}{
-		"nodes":      []string{},
-		"edges":      []interface{}{},
-		"unresolved": []interface{}{},
-	}
+	graph := analysis.BuildGraph(&extract)
 
 	enc := json.NewEncoder(os.Stdout)
 	enc.SetIndent("", "  ")
-	if err := enc.Encode(out); err != nil {
-		fmt.Fprintf(os.Stderr, "encode error: %v\n", err)
-		os.Exit(1)
+	if err := enc.Encode(graph); err != nil {
+		fmt.Fprintf(os.Stderr, "graph: encode error: %v\n", err)
+		os.Exit(2)
 	}
 }
