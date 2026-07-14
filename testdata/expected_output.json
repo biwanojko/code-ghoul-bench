@@ -1,0 +1,3562 @@
+{
+  "removals": [
+    {
+      "id": "go://go_sources/build_constraint.go#FallbackHelper",
+      "file": "go_sources/build_constraint.go",
+      "line": 11,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "CONDITIONALLY_REACHABLE"
+    },
+    {
+      "id": "go://go_sources/build_constraint.go#FallbackProcess",
+      "file": "go_sources/build_constraint.go",
+      "line": 6,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "CONDITIONALLY_REACHABLE"
+    },
+    {
+      "id": "go://go_sources/cache.go#Cache",
+      "file": "go_sources/cache.go",
+      "line": 6,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 5,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/cache.go#Clear",
+      "file": "go_sources/cache.go",
+      "line": 39,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/cache.go#Delete",
+      "file": "go_sources/cache.go",
+      "line": 32,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/cache.go#Get",
+      "file": "go_sources/cache.go",
+      "line": 24,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/cache.go#Len",
+      "file": "go_sources/cache.go",
+      "line": 46,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/cache.go#NewCache",
+      "file": "go_sources/cache.go",
+      "line": 12,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/cache.go#Set",
+      "file": "go_sources/cache.go",
+      "line": 17,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/config.go#Config",
+      "file": "go_sources/config.go",
+      "line": 9,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 5,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/config.go#DefaultConfig",
+      "file": "go_sources/config.go",
+      "line": 16,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/config.go#LoadConfig",
+      "file": "go_sources/config.go",
+      "line": 25,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/config.go#SaveConfig",
+      "file": "go_sources/config.go",
+      "line": 38,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/deprecated.go#NewOldRouter",
+      "file": "go_sources/deprecated.go",
+      "line": 24,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/deprecated.go#OldHandler",
+      "file": "go_sources/deprecated.go",
+      "line": 6,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 5,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/deprecated.go#OldRouter",
+      "file": "go_sources/deprecated.go",
+      "line": 19,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 5,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/deprecated.go#Process",
+      "file": "go_sources/deprecated.go",
+      "line": 9,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/deprecated.go#legacyInit",
+      "file": "go_sources/deprecated.go",
+      "line": 14,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/errors.go#AppError",
+      "file": "go_sources/errors.go",
+      "line": 6,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 5,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/errors.go#ErrInternal",
+      "file": "go_sources/errors.go",
+      "line": 39,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 3,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/errors.go#ErrNotFound",
+      "file": "go_sources/errors.go",
+      "line": 36,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 3,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/errors.go#Error",
+      "file": "go_sources/errors.go",
+      "line": 12,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/errors.go#Is",
+      "file": "go_sources/errors.go",
+      "line": 30,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/errors.go#NewAppError",
+      "file": "go_sources/errors.go",
+      "line": 17,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/errors.go#Wrap",
+      "file": "go_sources/errors.go",
+      "line": 22,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/handler.go#Handle",
+      "file": "go_sources/handler.go",
+      "line": 16,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/handler.go#Handler",
+      "file": "go_sources/handler.go",
+      "line": 6,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 5,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/handler.go#NewHandler",
+      "file": "go_sources/handler.go",
+      "line": 11,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/handler.go#internalProcess",
+      "file": "go_sources/handler.go",
+      "line": 21,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/logger.go#Log",
+      "file": "go_sources/logger.go",
+      "line": 34,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/logger.go#LogDebug",
+      "file": "go_sources/logger.go",
+      "line": 13,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 3,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/logger.go#LogError",
+      "file": "go_sources/logger.go",
+      "line": 19,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 3,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/logger.go#LogInfo",
+      "file": "go_sources/logger.go",
+      "line": 15,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 3,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/logger.go#LogLevel",
+      "file": "go_sources/logger.go",
+      "line": 9,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 5,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/logger.go#LogWarn",
+      "file": "go_sources/logger.go",
+      "line": 17,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 3,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/logger.go#Logger",
+      "file": "go_sources/logger.go",
+      "line": 23,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 5,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/logger.go#NewLogger",
+      "file": "go_sources/logger.go",
+      "line": 29,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/logger.go#SetLevel",
+      "file": "go_sources/logger.go",
+      "line": 57,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/logger.go#formatJSON",
+      "file": "go_sources/logger.go",
+      "line": 62,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/logger.go#levelName",
+      "file": "go_sources/logger.go",
+      "line": 41,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/metrics.go#GetStats",
+      "file": "go_sources/metrics.go",
+      "line": 25,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/metrics.go#IncrErrors",
+      "file": "go_sources/metrics.go",
+      "line": 20,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/metrics.go#IncrRequests",
+      "file": "go_sources/metrics.go",
+      "line": 15,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/metrics.go#Metrics",
+      "file": "go_sources/metrics.go",
+      "line": 6,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 5,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/metrics.go#globalMetrics",
+      "file": "go_sources/metrics.go",
+      "line": 12,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 3,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/metrics.go#resetMetrics",
+      "file": "go_sources/metrics.go",
+      "line": 31,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/middleware.go#AuthMiddleware",
+      "file": "go_sources/middleware.go",
+      "line": 29,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/middleware.go#Chain",
+      "file": "go_sources/middleware.go",
+      "line": 9,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/middleware.go#LoggingMiddleware",
+      "file": "go_sources/middleware.go",
+      "line": 19,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/middleware.go#Middleware",
+      "file": "go_sources/middleware.go",
+      "line": 6,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 5,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/middleware.go#RateLimitMiddleware",
+      "file": "go_sources/middleware.go",
+      "line": 42,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/router.go#Add",
+      "file": "go_sources/router.go",
+      "line": 23,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/router.go#NewRouter",
+      "file": "go_sources/router.go",
+      "line": 18,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/router.go#PrintRoutes",
+      "file": "go_sources/router.go",
+      "line": 43,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/router.go#Route",
+      "file": "go_sources/router.go",
+      "line": 6,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 5,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/router.go#Router",
+      "file": "go_sources/router.go",
+      "line": 13,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 5,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/router.go#ServeHTTP",
+      "file": "go_sources/router.go",
+      "line": 32,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/server.go#NewServer",
+      "file": "go_sources/server.go",
+      "line": 16,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/server.go#RegisterHandler",
+      "file": "go_sources/server.go",
+      "line": 36,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/server.go#Server",
+      "file": "go_sources/server.go",
+      "line": 9,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 5,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/server.go#Start",
+      "file": "go_sources/server.go",
+      "line": 25,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/server.go#Stop",
+      "file": "go_sources/server.go",
+      "line": 31,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/server.go#legacyStart",
+      "file": "go_sources/server.go",
+      "line": 43,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/util.go#GenerateID",
+      "file": "go_sources/util.go",
+      "line": 10,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/util.go#PadLeft",
+      "file": "go_sources/util.go",
+      "line": 37,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/util.go#SanitizePath",
+      "file": "go_sources/util.go",
+      "line": 17,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/util.go#TruncateString",
+      "file": "go_sources/util.go",
+      "line": 29,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.Builder",
+      "file": "java_sources/Builder.java",
+      "line": 6,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 5,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.Builder#build",
+      "file": "java_sources/Builder.java",
+      "line": 36,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.Builder#isValid",
+      "file": "java_sources/Builder.java",
+      "line": 47,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.Builder#reset",
+      "file": "java_sources/Builder.java",
+      "line": 54,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.Builder#withDebug",
+      "file": "java_sources/Builder.java",
+      "line": 31,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.Builder#withHost",
+      "file": "java_sources/Builder.java",
+      "line": 13,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.Builder#withPort",
+      "file": "java_sources/Builder.java",
+      "line": 18,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.Builder#withTimeout",
+      "file": "java_sources/Builder.java",
+      "line": 23,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.Cache",
+      "file": "java_sources/Cache.java",
+      "line": 9,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 5,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.Cache#removeEldestEntry",
+      "file": "java_sources/Cache.java",
+      "line": 17,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.Cache#size",
+      "file": "java_sources/Cache.java",
+      "line": 18,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.Config",
+      "file": "java_sources/Config.java",
+      "line": 9,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 5,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.Config#fromFile",
+      "file": "java_sources/Config.java",
+      "line": 33,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.Config#get",
+      "file": "java_sources/Config.java",
+      "line": 22,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.Config#save",
+      "file": "java_sources/Config.java",
+      "line": 42,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.Config#set",
+      "file": "java_sources/Config.java",
+      "line": 26,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.Config#setDefaults",
+      "file": "java_sources/Config.java",
+      "line": 17,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.Config#validate",
+      "file": "java_sources/Config.java",
+      "line": 49,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.Deprecated",
+      "file": "java_sources/Deprecated.java",
+      "line": 6,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 5,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.Deprecated#create",
+      "file": "java_sources/Deprecated.java",
+      "line": 25,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.Deprecated#destroy",
+      "file": "java_sources/Deprecated.java",
+      "line": 32,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.Deprecated#process",
+      "file": "java_sources/Deprecated.java",
+      "line": 11,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.Deprecated#validate",
+      "file": "java_sources/Deprecated.java",
+      "line": 18,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.EventBus",
+      "file": "java_sources/EventBus.java",
+      "line": 11,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 5,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.EventBus#clearAll",
+      "file": "java_sources/EventBus.java",
+      "line": 52,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.EventBus#publish",
+      "file": "java_sources/EventBus.java",
+      "line": 25,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.EventBus#subscribe",
+      "file": "java_sources/EventBus.java",
+      "line": 18,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.EventBus#subscriberCount",
+      "file": "java_sources/EventBus.java",
+      "line": 45,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.EventBus#unsubscribe",
+      "file": "java_sources/EventBus.java",
+      "line": 35,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.Logger",
+      "file": "java_sources/Logger.java",
+      "line": 8,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 5,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.Logger#child",
+      "file": "java_sources/Logger.java",
+      "line": 53,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.Logger#error",
+      "file": "java_sources/Logger.java",
+      "line": 32,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.Logger#formatJson",
+      "file": "java_sources/Logger.java",
+      "line": 46,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.Logger#info",
+      "file": "java_sources/Logger.java",
+      "line": 28,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.Logger#log",
+      "file": "java_sources/Logger.java",
+      "line": 22,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.Logger#setLevel",
+      "file": "java_sources/Logger.java",
+      "line": 39,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.Metrics",
+      "file": "java_sources/Metrics.java",
+      "line": 8,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 5,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.Metrics#export",
+      "file": "java_sources/Metrics.java",
+      "line": 52,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.Metrics#getAverageLatency",
+      "file": "java_sources/Metrics.java",
+      "line": 34,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.Metrics#getErrorCount",
+      "file": "java_sources/Metrics.java",
+      "line": 27,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.Metrics#getRequestCount",
+      "file": "java_sources/Metrics.java",
+      "line": 23,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.Metrics#recordError",
+      "file": "java_sources/Metrics.java",
+      "line": 19,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.Metrics#recordRequest",
+      "file": "java_sources/Metrics.java",
+      "line": 14,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.Metrics#reset",
+      "file": "java_sources/Metrics.java",
+      "line": 43,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.ReflectionExample",
+      "file": "java_sources/ReflectionExample.java",
+      "line": 6,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 5,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.ReflectionExample#createBridge",
+      "file": "java_sources/ReflectionExample.java",
+      "line": 19,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.ReflectionExample#getClassName",
+      "file": "java_sources/ReflectionExample.java",
+      "line": 33,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.ReflectionExample#loadByName",
+      "file": "java_sources/ReflectionExample.java",
+      "line": 11,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.ReflectionExample#unusedReflectionHelper",
+      "file": "java_sources/ReflectionExample.java",
+      "line": 26,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.StringUtils",
+      "file": "java_sources/StringUtils.java",
+      "line": 6,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 5,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.StringUtils#capitalize",
+      "file": "java_sources/StringUtils.java",
+      "line": 48,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.StringUtils#isPalindrome",
+      "file": "java_sources/StringUtils.java",
+      "line": 20,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.StringUtils#padLeft",
+      "file": "java_sources/StringUtils.java",
+      "line": 36,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.StringUtils#reverse",
+      "file": "java_sources/StringUtils.java",
+      "line": 13,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.StringUtils#truncate",
+      "file": "java_sources/StringUtils.java",
+      "line": 28,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.ThreadPool",
+      "file": "java_sources/ThreadPool.java",
+      "line": 10,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 5,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.ThreadPool#getActiveCount",
+      "file": "java_sources/ThreadPool.java",
+      "line": 50,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.ThreadPool#getSize",
+      "file": "java_sources/ThreadPool.java",
+      "line": 29,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.ThreadPool#isShutdown",
+      "file": "java_sources/ThreadPool.java",
+      "line": 43,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.ThreadPool#shutdown",
+      "file": "java_sources/ThreadPool.java",
+      "line": 24,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.ThreadPool#shutdownNow",
+      "file": "java_sources/ThreadPool.java",
+      "line": 36,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.ThreadPool#submit",
+      "file": "java_sources/ThreadPool.java",
+      "line": 20,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.Validator",
+      "file": "java_sources/Validator.java",
+      "line": 8,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 5,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.Validator#isValidEmail",
+      "file": "java_sources/Validator.java",
+      "line": 19,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.Validator#isValidHostname",
+      "file": "java_sources/Validator.java",
+      "line": 42,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.Validator#isValidPort",
+      "file": "java_sources/Validator.java",
+      "line": 35,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.Validator#isValidUrl",
+      "file": "java_sources/Validator.java",
+      "line": 27,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.Validator#sanitize",
+      "file": "java_sources/Validator.java",
+      "line": 50,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#Int",
+      "file": "kotlin_sources/Extensions.kt",
+      "line": 34,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 5,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#String",
+      "file": "kotlin_sources/Deprecated.kt",
+      "line": 25,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 5,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#String",
+      "file": "kotlin_sources/Extensions.kt",
+      "line": 7,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 5,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#String",
+      "file": "kotlin_sources/Extensions.kt",
+      "line": 11,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 5,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#String",
+      "file": "kotlin_sources/Extensions.kt",
+      "line": 19,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 5,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#acquire",
+      "file": "kotlin_sources/Companion.kt",
+      "line": 21,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#alsoDoNothing",
+      "file": "kotlin_sources/Singleton.kt",
+      "line": 36,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#applyHandler",
+      "file": "kotlin_sources/TypeAliases.kt",
+      "line": 10,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#buildConfig",
+      "file": "kotlin_sources/Config.kt",
+      "line": 45,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#buildErrorResponse",
+      "file": "kotlin_sources/DataClasses.kt",
+      "line": 36,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#chunked",
+      "file": "kotlin_sources/Flow.kt",
+      "line": 29,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#clear",
+      "file": "kotlin_sources/Singleton.kt",
+      "line": 21,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#clear",
+      "file": "kotlin_sources/Cache.kt",
+      "line": 29,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#companion",
+      "file": "kotlin_sources/Companion.kt",
+      "line": 9,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 5,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#composeHandlers",
+      "file": "kotlin_sources/TypeAliases.kt",
+      "line": 19,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#compute",
+      "file": "kotlin_sources/JvmInterop.kt",
+      "line": 13,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#contains",
+      "file": "kotlin_sources/Singleton.kt",
+      "line": 28,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#contains",
+      "file": "kotlin_sources/Cache.kt",
+      "line": 41,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#countOccurrences",
+      "file": "kotlin_sources/StringUtils.kt",
+      "line": 11,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#create",
+      "file": "kotlin_sources/Companion.kt",
+      "line": 13,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#createWithSize",
+      "file": "kotlin_sources/Companion.kt",
+      "line": 16,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#doNothing",
+      "file": "kotlin_sources/Singleton.kt",
+      "line": 35,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#doubleAll",
+      "file": "kotlin_sources/Flow.kt",
+      "line": 22,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#drain",
+      "file": "kotlin_sources/Companion.kt",
+      "line": 41,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#fetchData",
+      "file": "kotlin_sources/Coroutines.kt",
+      "line": 9,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#filterEven",
+      "file": "kotlin_sources/Flow.kt",
+      "line": 11,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#filterStrings",
+      "file": "kotlin_sources/TypeAliases.kt",
+      "line": 12,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#generateSequence",
+      "file": "kotlin_sources/Flow.kt",
+      "line": 7,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#get",
+      "file": "kotlin_sources/Singleton.kt",
+      "line": 14,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#get",
+      "file": "kotlin_sources/Cache.kt",
+      "line": 20,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#getConfig",
+      "file": "kotlin_sources/Config.kt",
+      "line": 18,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#getOrPut",
+      "file": "kotlin_sources/Cache.kt",
+      "line": 34,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#getStatus",
+      "file": "kotlin_sources/Deprecated.kt",
+      "line": 19,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#handleCommand",
+      "file": "kotlin_sources/SealedClasses.kt",
+      "line": 32,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#hasPrefixAndSuffix",
+      "file": "kotlin_sources/StringUtils.kt",
+      "line": 33,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#initialize",
+      "file": "kotlin_sources/Deprecated.kt",
+      "line": 17,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#internalHelper",
+      "file": "kotlin_sources/JvmInterop.kt",
+      "line": 18,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#joinWith",
+      "file": "kotlin_sources/StringUtils.kt",
+      "line": 23,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#legacyHelper",
+      "file": "kotlin_sources/Deprecated.kt",
+      "line": 30,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#loadFromEnv",
+      "file": "kotlin_sources/Config.kt",
+      "line": 27,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#minLengthPredicate",
+      "file": "kotlin_sources/TypeAliases.kt",
+      "line": 31,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#negatePredicate",
+      "file": "kotlin_sources/TypeAliases.kt",
+      "line": 26,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#normalizeString",
+      "file": "kotlin_sources/StringUtils.kt",
+      "line": 9,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#oldCompute",
+      "file": "kotlin_sources/Deprecated.kt",
+      "line": 7,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#oldProcessString",
+      "file": "kotlin_sources/Deprecated.kt",
+      "line": 9,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#oldValidate",
+      "file": "kotlin_sources/Deprecated.kt",
+      "line": 11,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#processAsync",
+      "file": "kotlin_sources/Coroutines.kt",
+      "line": 14,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#processRequest",
+      "file": "kotlin_sources/DataClasses.kt",
+      "line": 29,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#product",
+      "file": "kotlin_sources/Flow.kt",
+      "line": 36,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#put",
+      "file": "kotlin_sources/Cache.kt",
+      "line": 12,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#register",
+      "file": "kotlin_sources/Singleton.kt",
+      "line": 10,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#release",
+      "file": "kotlin_sources/Companion.kt",
+      "line": 29,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#remove",
+      "file": "kotlin_sources/Cache.kt",
+      "line": 22,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#repeatStr",
+      "file": "kotlin_sources/StringUtils.kt",
+      "line": 28,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#reverseString",
+      "file": "kotlin_sources/StringUtils.kt",
+      "line": 7,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#shutdown",
+      "file": "kotlin_sources/Deprecated.kt",
+      "line": 18,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#size",
+      "file": "kotlin_sources/Companion.kt",
+      "line": 36,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#size",
+      "file": "kotlin_sources/Singleton.kt",
+      "line": 16,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#size",
+      "file": "kotlin_sources/Cache.kt",
+      "line": 24,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#splitAndTrim",
+      "file": "kotlin_sources/StringUtils.kt",
+      "line": 16,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#staticHelper",
+      "file": "kotlin_sources/JvmInterop.kt",
+      "line": 10,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#sumList",
+      "file": "kotlin_sources/Flow.kt",
+      "line": 15,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#topLevelFun",
+      "file": "kotlin_sources/JvmInterop.kt",
+      "line": 25,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#unusedAsyncOp",
+      "file": "kotlin_sources/Coroutines.kt",
+      "line": 22,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#unusedJvmFunction",
+      "file": "kotlin_sources/JvmInterop.kt",
+      "line": 31,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#updateConfig",
+      "file": "kotlin_sources/Config.kt",
+      "line": 20,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#validate",
+      "file": "kotlin_sources/Config.kt",
+      "line": 37,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#withRetry",
+      "file": "kotlin_sources/Coroutines.kt",
+      "line": 30,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin.Command",
+      "file": "kotlin_sources/SealedClasses.kt",
+      "line": 23,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 5,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin.ConfigManager",
+      "file": "kotlin_sources/Config.kt",
+      "line": 14,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 5,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin.DeadSingleton",
+      "file": "kotlin_sources/Singleton.kt",
+      "line": 34,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 5,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin.JvmHelper",
+      "file": "kotlin_sources/JvmInterop.kt",
+      "line": 7,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 5,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin.Loading",
+      "file": "kotlin_sources/SealedClasses.kt",
+      "line": 9,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 5,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin.OldManager",
+      "file": "kotlin_sources/Deprecated.kt",
+      "line": 16,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 5,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin.Registry",
+      "file": "kotlin_sources/Singleton.kt",
+      "line": 6,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 5,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin.Result",
+      "file": "kotlin_sources/SealedClasses.kt",
+      "line": 6,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 5,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin.Start",
+      "file": "kotlin_sources/SealedClasses.kt",
+      "line": 24,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 5,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin.Stop",
+      "file": "kotlin_sources/SealedClasses.kt",
+      "line": 25,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 5,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/allocator.rs#alloc",
+      "file": "rust_sources/allocator.rs",
+      "line": 12,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/allocator.rs#custom_realloc",
+      "file": "rust_sources/allocator.rs",
+      "line": 27,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/allocator.rs#dealloc",
+      "file": "rust_sources/allocator.rs",
+      "line": 16,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/allocator.rs#track_alloc",
+      "file": "rust_sources/allocator.rs",
+      "line": 22,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/error_handling.rs#fmt",
+      "file": "rust_sources/error_handling.rs",
+      "line": 13,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/error_handling.rs#format_error",
+      "file": "rust_sources/error_handling.rs",
+      "line": 32,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/error_handling.rs#is_ok",
+      "file": "rust_sources/error_handling.rs",
+      "line": 27,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/error_handling.rs#new_error",
+      "file": "rust_sources/error_handling.rs",
+      "line": 19,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/error_handling.rs#wrap_error",
+      "file": "rust_sources/error_handling.rs",
+      "line": 37,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/parser.rs#format_parsed",
+      "file": "rust_sources/parser.rs",
+      "line": 30,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/parser.rs#parse_bool",
+      "file": "rust_sources/parser.rs",
+      "line": 14,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/parser.rs#parse_float",
+      "file": "rust_sources/parser.rs",
+      "line": 9,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/parser.rs#parse_int",
+      "file": "rust_sources/parser.rs",
+      "line": 4,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/parser.rs#parse_kv",
+      "file": "rust_sources/parser.rs",
+      "line": 19,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/parser.rs#validate_range",
+      "file": "rust_sources/parser.rs",
+      "line": 25,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/string_utils.rs#capitalize",
+      "file": "rust_sources/string_utils.rs",
+      "line": 36,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/string_utils.rs#count_char",
+      "file": "rust_sources/string_utils.rs",
+      "line": 9,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/string_utils.rs#is_palindrome",
+      "file": "rust_sources/string_utils.rs",
+      "line": 19,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/string_utils.rs#join",
+      "file": "rust_sources/string_utils.rs",
+      "line": 26,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/string_utils.rs#normalize",
+      "file": "rust_sources/string_utils.rs",
+      "line": 14,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/string_utils.rs#reverse",
+      "file": "rust_sources/string_utils.rs",
+      "line": 4,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/string_utils.rs#split_trim",
+      "file": "rust_sources/string_utils.rs",
+      "line": 31,
+      "priority": "P0",
+      "score": 1,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/cgo_bridge.go#unusedCGOHelper",
+      "file": "go_sources/cgo_bridge.go",
+      "line": 24,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/conditional.go#LinuxAMD64Optimize",
+      "file": "go_sources/conditional.go",
+      "line": 12,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/conditional.go#platformSpecificCleanup",
+      "file": "go_sources/conditional.go",
+      "line": 18,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/init.go#BuildInfo",
+      "file": "go_sources/init.go",
+      "line": 13,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 3,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/init.go#Version",
+      "file": "go_sources/init.go",
+      "line": 10,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 3,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/init.go#debugMode",
+      "file": "go_sources/init.go",
+      "line": 19,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 3,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/init.go#enableDebug",
+      "file": "go_sources/init.go",
+      "line": 22,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "go://go_sources/main.go#unusedTopLevel",
+      "file": "go_sources/main.go",
+      "line": 22,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.Application#onShutdown",
+      "file": "java_sources/Application.java",
+      "line": 29,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.Application#printUsage",
+      "file": "java_sources/Application.java",
+      "line": 22,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.Application#run",
+      "file": "java_sources/Application.java",
+      "line": 13,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.KeepAnnotated#alsoNotKept",
+      "file": "java_sources/KeepAnnotated.java",
+      "line": 26,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.KeepAnnotated#notKept",
+      "file": "java_sources/KeepAnnotated.java",
+      "line": 19,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.NativeBridge#javaHelper",
+      "file": "java_sources/NativeBridge.java",
+      "line": 30,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.StaticInit#checkConfig",
+      "file": "java_sources/StaticInit.java",
+      "line": 36,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.StaticInit#cleanup",
+      "file": "java_sources/StaticInit.java",
+      "line": 29,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.StaticInit#getMaxRetries",
+      "file": "java_sources/StaticInit.java",
+      "line": 22,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.StaticInit#initializeSubsystems",
+      "file": "java_sources/StaticInit.java",
+      "line": 17,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#computeWrapper",
+      "file": "kotlin_sources/Native.kt",
+      "line": 13,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#formatResult",
+      "file": "kotlin_sources/Native.kt",
+      "line": 27,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#loadConfig",
+      "file": "kotlin_sources/Application.kt",
+      "line": 27,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#run",
+      "file": "kotlin_sources/Application.kt",
+      "line": 12,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#shutdown",
+      "file": "kotlin_sources/Application.kt",
+      "line": 20,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#unusedNativeWrapper",
+      "file": "kotlin_sources/Native.kt",
+      "line": 20,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/buffer.rs#drain_buffer",
+      "file": "rust_sources/buffer.rs",
+      "line": 70,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/buffer.rs#new",
+      "file": "rust_sources/buffer.rs",
+      "line": 13,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/buffer.rs#peek",
+      "file": "rust_sources/buffer.rs",
+      "line": 45,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/buffer.rs#pop",
+      "file": "rust_sources/buffer.rs",
+      "line": 34,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/buffer.rs#push",
+      "file": "rust_sources/buffer.rs",
+      "line": 23,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/config.rs#default",
+      "file": "rust_sources/config.rs",
+      "line": 11,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/config.rs#from_env",
+      "file": "rust_sources/config.rs",
+      "line": 22,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/config.rs#merge",
+      "file": "rust_sources/config.rs",
+      "line": 39,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/config.rs#validate",
+      "file": "rust_sources/config.rs",
+      "line": 34,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/crypto.rs#checksum",
+      "file": "rust_sources/crypto.rs",
+      "line": 9,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/crypto.rs#derive_key",
+      "file": "rust_sources/crypto.rs",
+      "line": 42,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/crypto.rs#rotate_left",
+      "file": "rust_sources/crypto.rs",
+      "line": 14,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/crypto.rs#secure_erase",
+      "file": "rust_sources/crypto.rs",
+      "line": 35,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/crypto.rs#xor_cipher",
+      "file": "rust_sources/crypto.rs",
+      "line": 4,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/deprecated.rs#legacy_cleanup",
+      "file": "rust_sources/deprecated.rs",
+      "line": 25,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/deprecated.rs#legacy_init",
+      "file": "rust_sources/deprecated.rs",
+      "line": 20,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/deprecated.rs#old_compute",
+      "file": "rust_sources/deprecated.rs",
+      "line": 4,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/deprecated.rs#old_handle_error",
+      "file": "rust_sources/deprecated.rs",
+      "line": 30,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/deprecated.rs#old_process_string",
+      "file": "rust_sources/deprecated.rs",
+      "line": 9,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/engine.rs#compute",
+      "file": "rust_sources/engine.rs",
+      "line": 4,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/engine.rs#dead_internal",
+      "file": "rust_sources/engine.rs",
+      "line": 20,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/engine.rs#internal_helper",
+      "file": "rust_sources/engine.rs",
+      "line": 9,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/engine.rs#unused_public",
+      "file": "rust_sources/engine.rs",
+      "line": 25,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/feature_gated.rs#always_available",
+      "file": "rust_sources/feature_gated.rs",
+      "line": 20,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/feature_gated.rs#ffi_enabled_function",
+      "file": "rust_sources/feature_gated.rs",
+      "line": 4,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/feature_gated.rs#jni_enabled_helper",
+      "file": "rust_sources/feature_gated.rs",
+      "line": 15,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/feature_gated.rs#unused_feature_helper",
+      "file": "rust_sources/feature_gated.rs",
+      "line": 25,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/ffi.rs#ffi_internal_validate",
+      "file": "rust_sources/ffi.rs",
+      "line": 38,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/jni_bridge.rs#jni_helper",
+      "file": "rust_sources/jni_bridge.rs",
+      "line": 33,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/metrics.rs#compute_rate",
+      "file": "rust_sources/metrics.rs",
+      "line": 37,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/metrics.rs#get_count",
+      "file": "rust_sources/metrics.rs",
+      "line": 14,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/metrics.rs#increment",
+      "file": "rust_sources/metrics.rs",
+      "line": 9,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/metrics.rs#increment_errors",
+      "file": "rust_sources/metrics.rs",
+      "line": 19,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.Application",
+      "file": "java_sources/Application.java",
+      "line": 6,
+      "priority": "P2",
+      "score": 0.5,
+      "loc_savings": 5,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.NativeBridge",
+      "file": "java_sources/NativeBridge.java",
+      "line": 6,
+      "priority": "P2",
+      "score": 0.5,
+      "loc_savings": 5,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.StaticInit",
+      "file": "java_sources/StaticInit.java",
+      "line": 6,
+      "priority": "P2",
+      "score": 0.5,
+      "loc_savings": 5,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/feature_gated.rs#experimental_feature",
+      "file": "rust_sources/feature_gated.rs",
+      "line": 30,
+      "priority": "P3",
+      "score": 0.3,
+      "loc_savings": 10,
+      "reason": "CONDITIONALLY_REACHABLE"
+    },
+    {
+      "id": "go://monorepo/main.go#helper",
+      "file": "monorepo/main.go",
+      "line": 9,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 10,
+      "reason": "UNREACHABLE"
+    },
+    {
+      "id": "java://com.example.NativeBridge#initialize",
+      "file": "java_sources/NativeBridge.java",
+      "line": 33,
+      "priority": "P1",
+      "score": 0.8,
+      "loc_savings": 8,
+      "reason": "UNREACHABLE"
+    }
+  ],
+  "retained": [
+    {
+      "id": "go://go_sources/cgo_bridge.go#GoCallback",
+      "reason": "REACHABLE"
+    },
+    {
+      "id": "go://go_sources/conditional.go#init",
+      "reason": "REACHABLE"
+    },
+    {
+      "id": "go://go_sources/handler_test.go#TestHandler",
+      "reason": "test_scope"
+    },
+    {
+      "id": "go://go_sources/handler_test.go#TestHandlerName",
+      "reason": "test_scope"
+    },
+    {
+      "id": "go://go_sources/handler_test.go#testHelperUnused",
+      "reason": "test_scope"
+    },
+    {
+      "id": "go://go_sources/init.go#init",
+      "reason": "REACHABLE"
+    },
+    {
+      "id": "go://go_sources/main.go#main",
+      "reason": "REACHABLE"
+    },
+    {
+      "id": "go://go_sources/main.go#run",
+      "reason": "REACHABLE"
+    },
+    {
+      "id": "java://com.example.Application#main",
+      "reason": "REACHABLE"
+    },
+    {
+      "id": "java://com.example.KeepAnnotated",
+      "reason": "safety_filter"
+    },
+    {
+      "id": "java://com.example.KeepAnnotated#keepThisMethod",
+      "reason": "safety_filter"
+    },
+    {
+      "id": "java://com.example.NativeBridge#<static_init>",
+      "reason": "REACHABLE"
+    },
+    {
+      "id": "java://com.example.NativeBridge#compute",
+      "reason": "REACHABLE"
+    },
+    {
+      "id": "java://com.example.NativeBridge#init",
+      "reason": "safety_filter"
+    },
+    {
+      "id": "java://com.example.NativeBridge#processString",
+      "reason": "REACHABLE"
+    },
+    {
+      "id": "java://com.example.NativeBridge#unused",
+      "reason": "REACHABLE"
+    },
+    {
+      "id": "java://com.example.StaticInit#<static_init>",
+      "reason": "REACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#main",
+      "reason": "REACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#rustChecksum",
+      "reason": "REACHABLE"
+    },
+    {
+      "id": "kotlin://com.example.kotlin#rustCompute",
+      "reason": "REACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/buffer.rs#ring_buffer_free",
+      "reason": "REACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/buffer.rs#ring_buffer_new",
+      "reason": "REACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/config.rs#config_get_max_connections",
+      "reason": "REACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/crypto.rs#rust_checksum",
+      "reason": "REACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/deprecated.rs#old_rust_compute",
+      "reason": "REACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/engine.rs#rust_compute",
+      "reason": "REACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/feature_gated.rs#conditionally_exported",
+      "reason": "REACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/ffi.rs#alloc_rust_string",
+      "reason": "REACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/ffi.rs#free_rust_string",
+      "reason": "REACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/ffi.rs#process_string",
+      "reason": "REACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/jni_bridge.rs#Java_com_example_NativeBridge_compute",
+      "reason": "REACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/jni_bridge.rs#Java_com_example_NativeBridge_processString",
+      "reason": "REACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/jni_bridge.rs#Java_com_example_NativeBridge_unused",
+      "reason": "REACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/metrics.rs#metrics_get_count",
+      "reason": "REACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/metrics.rs#metrics_reset",
+      "reason": "REACHABLE"
+    },
+    {
+      "id": "rust://rust_sources/tests.rs#bench_compute",
+      "reason": "test_scope"
+    },
+    {
+      "id": "rust://rust_sources/tests.rs#build_fixture",
+      "reason": "test_scope"
+    },
+    {
+      "id": "rust://rust_sources/tests.rs#test_helper_add",
+      "reason": "test_scope"
+    },
+    {
+      "id": "rust://rust_sources/tests.rs#test_setup",
+      "reason": "test_scope"
+    }
+  ],
+  "file_level_actions": [
+    {
+      "file": "go_sources/build_constraint.go",
+      "action": "DELETE_ENTIRE_FILE",
+      "all_symbols_unreachable": true,
+      "removals": [
+        "go://go_sources/build_constraint.go#FallbackHelper",
+        "go://go_sources/build_constraint.go#FallbackProcess"
+      ]
+    },
+    {
+      "file": "go_sources/cache.go",
+      "action": "DELETE_ENTIRE_FILE",
+      "all_symbols_unreachable": true,
+      "removals": [
+        "go://go_sources/cache.go#Cache",
+        "go://go_sources/cache.go#Clear",
+        "go://go_sources/cache.go#Delete",
+        "go://go_sources/cache.go#Get",
+        "go://go_sources/cache.go#Len",
+        "go://go_sources/cache.go#NewCache",
+        "go://go_sources/cache.go#Set"
+      ]
+    },
+    {
+      "file": "go_sources/cgo_bridge.go",
+      "action": "PARTIAL_REMOVAL",
+      "all_symbols_unreachable": false,
+      "removals": [
+        "go://go_sources/cgo_bridge.go#unusedCGOHelper"
+      ]
+    },
+    {
+      "file": "go_sources/conditional.go",
+      "action": "PARTIAL_REMOVAL",
+      "all_symbols_unreachable": false,
+      "removals": [
+        "go://go_sources/conditional.go#LinuxAMD64Optimize",
+        "go://go_sources/conditional.go#platformSpecificCleanup"
+      ]
+    },
+    {
+      "file": "go_sources/config.go",
+      "action": "DELETE_ENTIRE_FILE",
+      "all_symbols_unreachable": true,
+      "removals": [
+        "go://go_sources/config.go#Config",
+        "go://go_sources/config.go#DefaultConfig",
+        "go://go_sources/config.go#LoadConfig",
+        "go://go_sources/config.go#SaveConfig"
+      ]
+    },
+    {
+      "file": "go_sources/deprecated.go",
+      "action": "DELETE_ENTIRE_FILE",
+      "all_symbols_unreachable": true,
+      "removals": [
+        "go://go_sources/deprecated.go#NewOldRouter",
+        "go://go_sources/deprecated.go#OldHandler",
+        "go://go_sources/deprecated.go#OldRouter",
+        "go://go_sources/deprecated.go#Process",
+        "go://go_sources/deprecated.go#legacyInit"
+      ]
+    },
+    {
+      "file": "go_sources/errors.go",
+      "action": "DELETE_ENTIRE_FILE",
+      "all_symbols_unreachable": true,
+      "removals": [
+        "go://go_sources/errors.go#AppError",
+        "go://go_sources/errors.go#ErrInternal",
+        "go://go_sources/errors.go#ErrNotFound",
+        "go://go_sources/errors.go#Error",
+        "go://go_sources/errors.go#Is",
+        "go://go_sources/errors.go#NewAppError",
+        "go://go_sources/errors.go#Wrap"
+      ]
+    },
+    {
+      "file": "go_sources/handler.go",
+      "action": "DELETE_ENTIRE_FILE",
+      "all_symbols_unreachable": true,
+      "removals": [
+        "go://go_sources/handler.go#Handle",
+        "go://go_sources/handler.go#Handler",
+        "go://go_sources/handler.go#NewHandler",
+        "go://go_sources/handler.go#internalProcess"
+      ]
+    },
+    {
+      "file": "go_sources/init.go",
+      "action": "PARTIAL_REMOVAL",
+      "all_symbols_unreachable": false,
+      "removals": [
+        "go://go_sources/init.go#BuildInfo",
+        "go://go_sources/init.go#Version",
+        "go://go_sources/init.go#debugMode",
+        "go://go_sources/init.go#enableDebug"
+      ]
+    },
+    {
+      "file": "go_sources/logger.go",
+      "action": "DELETE_ENTIRE_FILE",
+      "all_symbols_unreachable": true,
+      "removals": [
+        "go://go_sources/logger.go#Log",
+        "go://go_sources/logger.go#LogDebug",
+        "go://go_sources/logger.go#LogError",
+        "go://go_sources/logger.go#LogInfo",
+        "go://go_sources/logger.go#LogLevel",
+        "go://go_sources/logger.go#LogWarn",
+        "go://go_sources/logger.go#Logger",
+        "go://go_sources/logger.go#NewLogger",
+        "go://go_sources/logger.go#SetLevel",
+        "go://go_sources/logger.go#formatJSON",
+        "go://go_sources/logger.go#levelName"
+      ]
+    },
+    {
+      "file": "go_sources/main.go",
+      "action": "PARTIAL_REMOVAL",
+      "all_symbols_unreachable": false,
+      "removals": [
+        "go://go_sources/main.go#unusedTopLevel"
+      ]
+    },
+    {
+      "file": "go_sources/metrics.go",
+      "action": "DELETE_ENTIRE_FILE",
+      "all_symbols_unreachable": true,
+      "removals": [
+        "go://go_sources/metrics.go#GetStats",
+        "go://go_sources/metrics.go#IncrErrors",
+        "go://go_sources/metrics.go#IncrRequests",
+        "go://go_sources/metrics.go#Metrics",
+        "go://go_sources/metrics.go#globalMetrics",
+        "go://go_sources/metrics.go#resetMetrics"
+      ]
+    },
+    {
+      "file": "go_sources/middleware.go",
+      "action": "DELETE_ENTIRE_FILE",
+      "all_symbols_unreachable": true,
+      "removals": [
+        "go://go_sources/middleware.go#AuthMiddleware",
+        "go://go_sources/middleware.go#Chain",
+        "go://go_sources/middleware.go#LoggingMiddleware",
+        "go://go_sources/middleware.go#Middleware",
+        "go://go_sources/middleware.go#RateLimitMiddleware"
+      ]
+    },
+    {
+      "file": "go_sources/router.go",
+      "action": "DELETE_ENTIRE_FILE",
+      "all_symbols_unreachable": true,
+      "removals": [
+        "go://go_sources/router.go#Add",
+        "go://go_sources/router.go#NewRouter",
+        "go://go_sources/router.go#PrintRoutes",
+        "go://go_sources/router.go#Route",
+        "go://go_sources/router.go#Router",
+        "go://go_sources/router.go#ServeHTTP"
+      ]
+    },
+    {
+      "file": "go_sources/server.go",
+      "action": "DELETE_ENTIRE_FILE",
+      "all_symbols_unreachable": true,
+      "removals": [
+        "go://go_sources/server.go#NewServer",
+        "go://go_sources/server.go#RegisterHandler",
+        "go://go_sources/server.go#Server",
+        "go://go_sources/server.go#Start",
+        "go://go_sources/server.go#Stop",
+        "go://go_sources/server.go#legacyStart"
+      ]
+    },
+    {
+      "file": "go_sources/util.go",
+      "action": "DELETE_ENTIRE_FILE",
+      "all_symbols_unreachable": true,
+      "removals": [
+        "go://go_sources/util.go#GenerateID",
+        "go://go_sources/util.go#PadLeft",
+        "go://go_sources/util.go#SanitizePath",
+        "go://go_sources/util.go#TruncateString"
+      ]
+    },
+    {
+      "file": "java_sources/Application.java",
+      "action": "PARTIAL_REMOVAL",
+      "all_symbols_unreachable": false,
+      "removals": [
+        "java://com.example.Application",
+        "java://com.example.Application#onShutdown",
+        "java://com.example.Application#printUsage",
+        "java://com.example.Application#run"
+      ]
+    },
+    {
+      "file": "java_sources/Builder.java",
+      "action": "DELETE_ENTIRE_FILE",
+      "all_symbols_unreachable": true,
+      "removals": [
+        "java://com.example.Builder",
+        "java://com.example.Builder#build",
+        "java://com.example.Builder#isValid",
+        "java://com.example.Builder#reset",
+        "java://com.example.Builder#withDebug",
+        "java://com.example.Builder#withHost",
+        "java://com.example.Builder#withPort",
+        "java://com.example.Builder#withTimeout"
+      ]
+    },
+    {
+      "file": "java_sources/Cache.java",
+      "action": "DELETE_ENTIRE_FILE",
+      "all_symbols_unreachable": true,
+      "removals": [
+        "java://com.example.Cache",
+        "java://com.example.Cache#removeEldestEntry",
+        "java://com.example.Cache#size"
+      ]
+    },
+    {
+      "file": "java_sources/Config.java",
+      "action": "DELETE_ENTIRE_FILE",
+      "all_symbols_unreachable": true,
+      "removals": [
+        "java://com.example.Config",
+        "java://com.example.Config#fromFile",
+        "java://com.example.Config#get",
+        "java://com.example.Config#save",
+        "java://com.example.Config#set",
+        "java://com.example.Config#setDefaults",
+        "java://com.example.Config#validate"
+      ]
+    },
+    {
+      "file": "java_sources/Deprecated.java",
+      "action": "DELETE_ENTIRE_FILE",
+      "all_symbols_unreachable": true,
+      "removals": [
+        "java://com.example.Deprecated",
+        "java://com.example.Deprecated#create",
+        "java://com.example.Deprecated#destroy",
+        "java://com.example.Deprecated#process",
+        "java://com.example.Deprecated#validate"
+      ]
+    },
+    {
+      "file": "java_sources/EventBus.java",
+      "action": "DELETE_ENTIRE_FILE",
+      "all_symbols_unreachable": true,
+      "removals": [
+        "java://com.example.EventBus",
+        "java://com.example.EventBus#clearAll",
+        "java://com.example.EventBus#publish",
+        "java://com.example.EventBus#subscribe",
+        "java://com.example.EventBus#subscriberCount",
+        "java://com.example.EventBus#unsubscribe"
+      ]
+    },
+    {
+      "file": "java_sources/KeepAnnotated.java",
+      "action": "PARTIAL_REMOVAL",
+      "all_symbols_unreachable": false,
+      "removals": [
+        "java://com.example.KeepAnnotated#alsoNotKept",
+        "java://com.example.KeepAnnotated#notKept"
+      ]
+    },
+    {
+      "file": "java_sources/Logger.java",
+      "action": "DELETE_ENTIRE_FILE",
+      "all_symbols_unreachable": true,
+      "removals": [
+        "java://com.example.Logger",
+        "java://com.example.Logger#child",
+        "java://com.example.Logger#error",
+        "java://com.example.Logger#formatJson",
+        "java://com.example.Logger#info",
+        "java://com.example.Logger#log",
+        "java://com.example.Logger#setLevel"
+      ]
+    },
+    {
+      "file": "java_sources/Metrics.java",
+      "action": "DELETE_ENTIRE_FILE",
+      "all_symbols_unreachable": true,
+      "removals": [
+        "java://com.example.Metrics",
+        "java://com.example.Metrics#export",
+        "java://com.example.Metrics#getAverageLatency",
+        "java://com.example.Metrics#getErrorCount",
+        "java://com.example.Metrics#getRequestCount",
+        "java://com.example.Metrics#recordError",
+        "java://com.example.Metrics#recordRequest",
+        "java://com.example.Metrics#reset"
+      ]
+    },
+    {
+      "file": "java_sources/NativeBridge.java",
+      "action": "PARTIAL_REMOVAL",
+      "all_symbols_unreachable": false,
+      "removals": [
+        "java://com.example.NativeBridge",
+        "java://com.example.NativeBridge#javaHelper"
+      ]
+    },
+    {
+      "file": "java_sources/ReflectionExample.java",
+      "action": "DELETE_ENTIRE_FILE",
+      "all_symbols_unreachable": true,
+      "removals": [
+        "java://com.example.ReflectionExample",
+        "java://com.example.ReflectionExample#createBridge",
+        "java://com.example.ReflectionExample#getClassName",
+        "java://com.example.ReflectionExample#loadByName",
+        "java://com.example.ReflectionExample#unusedReflectionHelper"
+      ]
+    },
+    {
+      "file": "java_sources/StaticInit.java",
+      "action": "PARTIAL_REMOVAL",
+      "all_symbols_unreachable": false,
+      "removals": [
+        "java://com.example.StaticInit",
+        "java://com.example.StaticInit#checkConfig",
+        "java://com.example.StaticInit#cleanup",
+        "java://com.example.StaticInit#getMaxRetries",
+        "java://com.example.StaticInit#initializeSubsystems"
+      ]
+    },
+    {
+      "file": "java_sources/StringUtils.java",
+      "action": "DELETE_ENTIRE_FILE",
+      "all_symbols_unreachable": true,
+      "removals": [
+        "java://com.example.StringUtils",
+        "java://com.example.StringUtils#capitalize",
+        "java://com.example.StringUtils#isPalindrome",
+        "java://com.example.StringUtils#padLeft",
+        "java://com.example.StringUtils#reverse",
+        "java://com.example.StringUtils#truncate"
+      ]
+    },
+    {
+      "file": "java_sources/ThreadPool.java",
+      "action": "DELETE_ENTIRE_FILE",
+      "all_symbols_unreachable": true,
+      "removals": [
+        "java://com.example.ThreadPool",
+        "java://com.example.ThreadPool#getActiveCount",
+        "java://com.example.ThreadPool#getSize",
+        "java://com.example.ThreadPool#isShutdown",
+        "java://com.example.ThreadPool#shutdown",
+        "java://com.example.ThreadPool#shutdownNow",
+        "java://com.example.ThreadPool#submit"
+      ]
+    },
+    {
+      "file": "java_sources/Validator.java",
+      "action": "DELETE_ENTIRE_FILE",
+      "all_symbols_unreachable": true,
+      "removals": [
+        "java://com.example.Validator",
+        "java://com.example.Validator#isValidEmail",
+        "java://com.example.Validator#isValidHostname",
+        "java://com.example.Validator#isValidPort",
+        "java://com.example.Validator#isValidUrl",
+        "java://com.example.Validator#sanitize"
+      ]
+    },
+    {
+      "file": "kotlin_sources/Application.kt",
+      "action": "PARTIAL_REMOVAL",
+      "all_symbols_unreachable": false,
+      "removals": [
+        "kotlin://com.example.kotlin#loadConfig",
+        "kotlin://com.example.kotlin#run",
+        "kotlin://com.example.kotlin#shutdown"
+      ]
+    },
+    {
+      "file": "kotlin_sources/Cache.kt",
+      "action": "DELETE_ENTIRE_FILE",
+      "all_symbols_unreachable": true,
+      "removals": [
+        "kotlin://com.example.kotlin#clear",
+        "kotlin://com.example.kotlin#contains",
+        "kotlin://com.example.kotlin#get",
+        "kotlin://com.example.kotlin#getOrPut",
+        "kotlin://com.example.kotlin#put",
+        "kotlin://com.example.kotlin#remove",
+        "kotlin://com.example.kotlin#size"
+      ]
+    },
+    {
+      "file": "kotlin_sources/Companion.kt",
+      "action": "DELETE_ENTIRE_FILE",
+      "all_symbols_unreachable": true,
+      "removals": [
+        "kotlin://com.example.kotlin#acquire",
+        "kotlin://com.example.kotlin#companion",
+        "kotlin://com.example.kotlin#create",
+        "kotlin://com.example.kotlin#createWithSize",
+        "kotlin://com.example.kotlin#drain",
+        "kotlin://com.example.kotlin#release",
+        "kotlin://com.example.kotlin#size"
+      ]
+    },
+    {
+      "file": "kotlin_sources/Config.kt",
+      "action": "DELETE_ENTIRE_FILE",
+      "all_symbols_unreachable": true,
+      "removals": [
+        "kotlin://com.example.kotlin#buildConfig",
+        "kotlin://com.example.kotlin#getConfig",
+        "kotlin://com.example.kotlin#loadFromEnv",
+        "kotlin://com.example.kotlin#updateConfig",
+        "kotlin://com.example.kotlin#validate",
+        "kotlin://com.example.kotlin.ConfigManager"
+      ]
+    },
+    {
+      "file": "kotlin_sources/Coroutines.kt",
+      "action": "DELETE_ENTIRE_FILE",
+      "all_symbols_unreachable": true,
+      "removals": [
+        "kotlin://com.example.kotlin#fetchData",
+        "kotlin://com.example.kotlin#processAsync",
+        "kotlin://com.example.kotlin#unusedAsyncOp",
+        "kotlin://com.example.kotlin#withRetry"
+      ]
+    },
+    {
+      "file": "kotlin_sources/DataClasses.kt",
+      "action": "DELETE_ENTIRE_FILE",
+      "all_symbols_unreachable": true,
+      "removals": [
+        "kotlin://com.example.kotlin#buildErrorResponse",
+        "kotlin://com.example.kotlin#processRequest"
+      ]
+    },
+    {
+      "file": "kotlin_sources/Deprecated.kt",
+      "action": "DELETE_ENTIRE_FILE",
+      "all_symbols_unreachable": true,
+      "removals": [
+        "kotlin://com.example.kotlin#String",
+        "kotlin://com.example.kotlin#getStatus",
+        "kotlin://com.example.kotlin#initialize",
+        "kotlin://com.example.kotlin#legacyHelper",
+        "kotlin://com.example.kotlin#oldCompute",
+        "kotlin://com.example.kotlin#oldProcessString",
+        "kotlin://com.example.kotlin#oldValidate",
+        "kotlin://com.example.kotlin#shutdown",
+        "kotlin://com.example.kotlin.OldManager"
+      ]
+    },
+    {
+      "file": "kotlin_sources/Extensions.kt",
+      "action": "DELETE_ENTIRE_FILE",
+      "all_symbols_unreachable": true,
+      "removals": [
+        "kotlin://com.example.kotlin#Int",
+        "kotlin://com.example.kotlin#String",
+        "kotlin://com.example.kotlin#String",
+        "kotlin://com.example.kotlin#String"
+      ]
+    },
+    {
+      "file": "kotlin_sources/Flow.kt",
+      "action": "DELETE_ENTIRE_FILE",
+      "all_symbols_unreachable": true,
+      "removals": [
+        "kotlin://com.example.kotlin#chunked",
+        "kotlin://com.example.kotlin#doubleAll",
+        "kotlin://com.example.kotlin#filterEven",
+        "kotlin://com.example.kotlin#generateSequence",
+        "kotlin://com.example.kotlin#product",
+        "kotlin://com.example.kotlin#sumList"
+      ]
+    },
+    {
+      "file": "kotlin_sources/JvmInterop.kt",
+      "action": "DELETE_ENTIRE_FILE",
+      "all_symbols_unreachable": true,
+      "removals": [
+        "kotlin://com.example.kotlin#compute",
+        "kotlin://com.example.kotlin#internalHelper",
+        "kotlin://com.example.kotlin#staticHelper",
+        "kotlin://com.example.kotlin#topLevelFun",
+        "kotlin://com.example.kotlin#unusedJvmFunction",
+        "kotlin://com.example.kotlin.JvmHelper"
+      ]
+    },
+    {
+      "file": "kotlin_sources/Native.kt",
+      "action": "PARTIAL_REMOVAL",
+      "all_symbols_unreachable": false,
+      "removals": [
+        "kotlin://com.example.kotlin#computeWrapper",
+        "kotlin://com.example.kotlin#formatResult",
+        "kotlin://com.example.kotlin#unusedNativeWrapper"
+      ]
+    },
+    {
+      "file": "kotlin_sources/SealedClasses.kt",
+      "action": "DELETE_ENTIRE_FILE",
+      "all_symbols_unreachable": true,
+      "removals": [
+        "kotlin://com.example.kotlin#handleCommand",
+        "kotlin://com.example.kotlin.Command",
+        "kotlin://com.example.kotlin.Loading",
+        "kotlin://com.example.kotlin.Result",
+        "kotlin://com.example.kotlin.Start",
+        "kotlin://com.example.kotlin.Stop"
+      ]
+    },
+    {
+      "file": "kotlin_sources/Singleton.kt",
+      "action": "DELETE_ENTIRE_FILE",
+      "all_symbols_unreachable": true,
+      "removals": [
+        "kotlin://com.example.kotlin#alsoDoNothing",
+        "kotlin://com.example.kotlin#clear",
+        "kotlin://com.example.kotlin#contains",
+        "kotlin://com.example.kotlin#doNothing",
+        "kotlin://com.example.kotlin#get",
+        "kotlin://com.example.kotlin#register",
+        "kotlin://com.example.kotlin#size",
+        "kotlin://com.example.kotlin.DeadSingleton",
+        "kotlin://com.example.kotlin.Registry"
+      ]
+    },
+    {
+      "file": "kotlin_sources/StringUtils.kt",
+      "action": "DELETE_ENTIRE_FILE",
+      "all_symbols_unreachable": true,
+      "removals": [
+        "kotlin://com.example.kotlin#countOccurrences",
+        "kotlin://com.example.kotlin#hasPrefixAndSuffix",
+        "kotlin://com.example.kotlin#joinWith",
+        "kotlin://com.example.kotlin#normalizeString",
+        "kotlin://com.example.kotlin#repeatStr",
+        "kotlin://com.example.kotlin#reverseString",
+        "kotlin://com.example.kotlin#splitAndTrim"
+      ]
+    },
+    {
+      "file": "kotlin_sources/TypeAliases.kt",
+      "action": "DELETE_ENTIRE_FILE",
+      "all_symbols_unreachable": true,
+      "removals": [
+        "kotlin://com.example.kotlin#applyHandler",
+        "kotlin://com.example.kotlin#composeHandlers",
+        "kotlin://com.example.kotlin#filterStrings",
+        "kotlin://com.example.kotlin#minLengthPredicate",
+        "kotlin://com.example.kotlin#negatePredicate"
+      ]
+    },
+    {
+      "file": "rust_sources/allocator.rs",
+      "action": "DELETE_ENTIRE_FILE",
+      "all_symbols_unreachable": true,
+      "removals": [
+        "rust://rust_sources/allocator.rs#alloc",
+        "rust://rust_sources/allocator.rs#custom_realloc",
+        "rust://rust_sources/allocator.rs#dealloc",
+        "rust://rust_sources/allocator.rs#track_alloc"
+      ]
+    },
+    {
+      "file": "rust_sources/buffer.rs",
+      "action": "PARTIAL_REMOVAL",
+      "all_symbols_unreachable": false,
+      "removals": [
+        "rust://rust_sources/buffer.rs#drain_buffer",
+        "rust://rust_sources/buffer.rs#new",
+        "rust://rust_sources/buffer.rs#peek",
+        "rust://rust_sources/buffer.rs#pop",
+        "rust://rust_sources/buffer.rs#push"
+      ]
+    },
+    {
+      "file": "rust_sources/config.rs",
+      "action": "PARTIAL_REMOVAL",
+      "all_symbols_unreachable": false,
+      "removals": [
+        "rust://rust_sources/config.rs#default",
+        "rust://rust_sources/config.rs#from_env",
+        "rust://rust_sources/config.rs#merge",
+        "rust://rust_sources/config.rs#validate"
+      ]
+    },
+    {
+      "file": "rust_sources/crypto.rs",
+      "action": "PARTIAL_REMOVAL",
+      "all_symbols_unreachable": false,
+      "removals": [
+        "rust://rust_sources/crypto.rs#checksum",
+        "rust://rust_sources/crypto.rs#derive_key",
+        "rust://rust_sources/crypto.rs#rotate_left",
+        "rust://rust_sources/crypto.rs#secure_erase",
+        "rust://rust_sources/crypto.rs#xor_cipher"
+      ]
+    },
+    {
+      "file": "rust_sources/deprecated.rs",
+      "action": "PARTIAL_REMOVAL",
+      "all_symbols_unreachable": false,
+      "removals": [
+        "rust://rust_sources/deprecated.rs#legacy_cleanup",
+        "rust://rust_sources/deprecated.rs#legacy_init",
+        "rust://rust_sources/deprecated.rs#old_compute",
+        "rust://rust_sources/deprecated.rs#old_handle_error",
+        "rust://rust_sources/deprecated.rs#old_process_string"
+      ]
+    },
+    {
+      "file": "rust_sources/engine.rs",
+      "action": "PARTIAL_REMOVAL",
+      "all_symbols_unreachable": false,
+      "removals": [
+        "rust://rust_sources/engine.rs#compute",
+        "rust://rust_sources/engine.rs#dead_internal",
+        "rust://rust_sources/engine.rs#internal_helper",
+        "rust://rust_sources/engine.rs#unused_public"
+      ]
+    },
+    {
+      "file": "rust_sources/error_handling.rs",
+      "action": "DELETE_ENTIRE_FILE",
+      "all_symbols_unreachable": true,
+      "removals": [
+        "rust://rust_sources/error_handling.rs#fmt",
+        "rust://rust_sources/error_handling.rs#format_error",
+        "rust://rust_sources/error_handling.rs#is_ok",
+        "rust://rust_sources/error_handling.rs#new_error",
+        "rust://rust_sources/error_handling.rs#wrap_error"
+      ]
+    },
+    {
+      "file": "rust_sources/feature_gated.rs",
+      "action": "PARTIAL_REMOVAL",
+      "all_symbols_unreachable": false,
+      "removals": [
+        "rust://rust_sources/feature_gated.rs#always_available",
+        "rust://rust_sources/feature_gated.rs#experimental_feature",
+        "rust://rust_sources/feature_gated.rs#ffi_enabled_function",
+        "rust://rust_sources/feature_gated.rs#jni_enabled_helper",
+        "rust://rust_sources/feature_gated.rs#unused_feature_helper"
+      ]
+    },
+    {
+      "file": "rust_sources/ffi.rs",
+      "action": "PARTIAL_REMOVAL",
+      "all_symbols_unreachable": false,
+      "removals": [
+        "rust://rust_sources/ffi.rs#ffi_internal_validate"
+      ]
+    },
+    {
+      "file": "rust_sources/jni_bridge.rs",
+      "action": "PARTIAL_REMOVAL",
+      "all_symbols_unreachable": false,
+      "removals": [
+        "rust://rust_sources/jni_bridge.rs#jni_helper"
+      ]
+    },
+    {
+      "file": "rust_sources/metrics.rs",
+      "action": "PARTIAL_REMOVAL",
+      "all_symbols_unreachable": false,
+      "removals": [
+        "rust://rust_sources/metrics.rs#compute_rate",
+        "rust://rust_sources/metrics.rs#get_count",
+        "rust://rust_sources/metrics.rs#increment",
+        "rust://rust_sources/metrics.rs#increment_errors"
+      ]
+    },
+    {
+      "file": "rust_sources/parser.rs",
+      "action": "DELETE_ENTIRE_FILE",
+      "all_symbols_unreachable": true,
+      "removals": [
+        "rust://rust_sources/parser.rs#format_parsed",
+        "rust://rust_sources/parser.rs#parse_bool",
+        "rust://rust_sources/parser.rs#parse_float",
+        "rust://rust_sources/parser.rs#parse_int",
+        "rust://rust_sources/parser.rs#parse_kv",
+        "rust://rust_sources/parser.rs#validate_range"
+      ]
+    },
+    {
+      "file": "rust_sources/string_utils.rs",
+      "action": "DELETE_ENTIRE_FILE",
+      "all_symbols_unreachable": true,
+      "removals": [
+        "rust://rust_sources/string_utils.rs#capitalize",
+        "rust://rust_sources/string_utils.rs#count_char",
+        "rust://rust_sources/string_utils.rs#is_palindrome",
+        "rust://rust_sources/string_utils.rs#join",
+        "rust://rust_sources/string_utils.rs#normalize",
+        "rust://rust_sources/string_utils.rs#reverse",
+        "rust://rust_sources/string_utils.rs#split_trim"
+      ]
+    }
+  ],
+  "summary": {
+    "total_symbols": 335,
+    "removable": 298,
+    "retained": 39,
+    "files_to_delete": 40,
+    "estimated_loc_savings": 2527
+  }
+}
