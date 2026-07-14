@@ -52,7 +52,6 @@ def test_repo_structure_intact():
         assert os.path.isdir(d), f"testdata/{lang}/ not found"
 
 
-
 # ---------------------------------------------------------------------------
 # Step 1: Symbol Extractor
 # ---------------------------------------------------------------------------
@@ -321,13 +320,19 @@ class TestStep3:
                 )
 
     def test_transitive_closure(self):
-        """Statistics are consistent (total = reachable + conditionally + unreachable + test)."""
+        """Statistics are consistent AND BFS must reach symbols beyond entry points."""
         data = self._reachability()
         stats = data.get("statistics", {})
         total = stats.get("total_symbols", 0)
         assert total > 0, "No symbols in reachability output"
+        reachable = stats.get("reachable", 0)
+        assert reachable > 0, (
+            "No REACHABLE symbols found — BFS from entry points must reach at least some symbols. "
+            "Hint: main(), init(), and static_initializers are always entry points; "
+            "BFS must follow edges from them."
+        )
         accounted = (
-            stats.get("reachable", 0)
+            reachable
             + stats.get("conditionally_reachable", 0)
             + stats.get("unreachable", 0)
             + stats.get("test_scope_excluded", 0)
@@ -342,17 +347,35 @@ class TestStep3:
             "No CONDITIONALLY_REACHABLE symbols found (testdata should have some)"
 
     def test_virtual_dispatch(self):
-        """Interface/trait method reachable when type is reachable."""
+        """BFS reaches symbols transitively via call graph edges, not just entry points."""
         data = self._reachability()
-        # At least one reachable symbol should come from an interface/trait implementation
         reachable_ids = {r["id"] for r in data.get("reachability", []) if r["status"] == "REACHABLE"}
-        assert len(reachable_ids) > 0, "No reachable symbols at all"
+        # testdata has 27 entry points; a minimal stub that only marks entry points reachable
+        # would give exactly that count. A real BFS following call-graph edges reaches more.
+        assert len(reachable_ids) >= 30, (
+            f"Only {len(reachable_ids)} REACHABLE symbols found — BFS should transitively reach "
+            f"symbols beyond the 27 direct entry points by following call-graph edges "
+            f"(go_call, cgo, jni, reflection). "
+            f"Check that BFS enqueues neighbors of reachable nodes."
+        )
 
     def test_sealed_class_propagation(self):
-        """Sealed class reachable implies all direct subclasses reachable."""
+        """Reachability spreads across multiple languages via cross-language edges."""
         data = self._reachability()
         reachable_ids = {r["id"] for r in data.get("reachability", []) if r["status"] == "REACHABLE"}
-        assert len(reachable_ids) > 0
+        # With proper cross-language BFS, Rust, Java, and Kotlin symbols should be reachable
+        # via JNI/CGO edges from Go/Java entry points.
+        langs = set()
+        for sid in reachable_ids:
+            if sid.startswith("go://"): langs.add("go")
+            elif sid.startswith("rust://"): langs.add("rust")
+            elif sid.startswith("java://"): langs.add("java")
+            elif sid.startswith("kotlin://"): langs.add("kotlin")
+        assert len(langs) >= 2, (
+            f"REACHABLE symbols span only {langs} — BFS must follow cross-language "
+            f"edges (JNI, CGO) to reach symbols in multiple languages. "
+            f"Got: {sorted(langs)}"
+        )
 
 
 # ---------------------------------------------------------------------------
@@ -444,24 +467,14 @@ class TestStep5:
     _monorepo = os.path.join(TESTDATA, "monorepo")
 
     def _analyze(self, extra_args=None):
-        for pkg in ("cmd/extract", "cmd/graph", "cmd/deadcode"):
-            ok, err = _build(pkg)
-            assert ok, f"{pkg} build failed:\n{err}"
-        rc, sym_out, _ = _run(["go", "run", "./cmd/extract", "--dir", TESTDATA], timeout=15)
-        assert rc == 0, f"extract failed"
-        graph_proc = subprocess.run(
-            ["go", "run", "./cmd/graph"],
-            input=sym_out, capture_output=True, text=True, cwd=REPO, timeout=30, env=_GO_ENV,
-        )
-        assert graph_proc.returncode == 0, f"graph failed: {graph_proc.stderr}"
-        args = ["go", "run", "./cmd/deadcode", "analyze", "--config", self._config, "--json"]
+        ok, err = _build("cmd/deadcode")
+        assert ok, f"cmd/deadcode build failed:\n{err}"
+        args = ["go", "run", "./cmd/deadcode", "analyze",
+                "--repo", TESTDATA, "--config", self._config, "--json"]
         if extra_args:
             args += extra_args
-        proc = subprocess.run(
-            args, input=graph_proc.stdout, capture_output=True, text=True,
-            cwd=REPO, timeout=20, env=_GO_ENV,
-        )
-        return proc.returncode, proc.stdout, proc.stderr
+        rc, out, err = _run(args, timeout=20)
+        return rc, out, err
 
     def test_analyze_mode_matches_expected(self):
         """Analyze mode output matches expected_output.json (allow +/-5 LOC)."""
@@ -504,7 +517,7 @@ class TestStep5:
             "new_dead must be non-empty — the monorepo removes helper()'s caller at HEAD"
 
     def test_diff_mode_resolved_dead(self):
-        """Diff mode output has correct 'resolved_dead' key in delta (may be empty for monorepo)."""
+        """Diff mode delta contains all required keys and new_dead is non-empty for the monorepo."""
         ok, err = _build("cmd/deadcode")
         assert ok
         if not os.path.isdir(self._monorepo):
@@ -517,10 +530,19 @@ class TestStep5:
             timeout=35,
         )
         assert rc in (0, 1, 2), f"diff exited unexpectedly: {rc}"
-        if rc != 2:
-            data = json.loads(out)
-            assert "resolved_dead" in data.get("delta", {}), \
-                "Diff output missing 'delta.resolved_dead'"
+        if rc == 2:
+            assert False, "diff subcommand exited with error (rc=2) — must implement deadcode diff"
+        data = json.loads(out)
+        delta = data.get("delta", {})
+        for key in ("new_dead", "resolved_dead"):
+            assert key in delta, f"Diff output missing 'delta.{key}'"
+            assert isinstance(delta[key], list), f"delta.{key} must be a list"
+        # The monorepo removes the caller of helper() at HEAD, so helper() becomes dead.
+        # A stub that echoes empty new_dead fails this check.
+        assert len(delta["new_dead"]) > 0, (
+            "new_dead must be non-empty — the monorepo removes helper()'s caller at HEAD, "
+            "making helper() newly dead. A real diff must compare pipelines across commits."
+        )
 
     def test_exit_codes(self):
         """Analyze exits 1 when dead code found; 0 when repo is clean."""
